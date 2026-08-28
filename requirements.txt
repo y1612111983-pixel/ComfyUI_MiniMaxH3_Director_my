@@ -1,0 +1,10 @@
+# 梦镜 DreamShot — Python 依赖
+#
+# 本插件的第三方 import 为 numpy / Pillow(PIL) / torch，
+# 这三者均由 ComfyUI 本体安装时提供，通常无需额外 pip 安装。
+# 因此本文件默认不强制任何依赖；如果你的环境缺少其中某项，
+# 取消对应注释即可。
+#
+# numpy
+# Pillow
+# torch

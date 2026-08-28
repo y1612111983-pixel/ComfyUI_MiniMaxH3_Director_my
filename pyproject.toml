@@ -1,0 +1,27 @@
+[project]
+name = "comfyui-dreamshot"
+version = "1.10.1"
+description = "梦镜 DreamShot — ComfyUI / MiniMax H3 workflow & director extension"
+readme = "README.md"
+requires-python = ">=3.9"
+# TODO: 作者信息待项目所有者填写（姓名/邮箱）
+authors = [{ name = "TODO", email = "TODO@example.com" }]
+keywords = ["comfyui", "custom-node", "minimax-h3", "video", "director", "workflow"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+# TODO: 许可证选定后替换（当前仓库 LICENSE 为占位文件）
+license = { text = "TODO" }
+
+# ComfyUI Registry / Manager 元数据
+[tool.comfy]
+name = "ComfyUI-DreamShot"
+display_name = "DreamShot / 梦镜 DreamShot"
+description = "DreamShot workflow/director extension for ComfyUI / MiniMax H3"
+version = "1.10.1"
+# TODO: 按实际最低支持版本确认（代码依赖 comfy_api.latest 与 comfy_extras.nodes_minimax_h3，需较新 ComfyUI）
+min_comfy_version = "0.3.78"
+author = "TODO"
+# TODO: 仓库公开后填写真实地址
+author_url = "https://github.com/TODO/ComfyUI-DreamShot"
+contact = { email = "TODO@example.com", github = "TODO", discord = "TODO" }
